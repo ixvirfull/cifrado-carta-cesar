@@ -135,7 +135,7 @@ function render() {
   // La pregunta aparece justo antes del primer párrafo bloqueado
   const n = CONFIG.niveles[done];
   card.innerHTML =
-    '<p class="step">Nivel ' + (done + 1) + " de " + TOTAL + "<small>César, desplazamiento " + n.desplazamiento + "</small></p>" +
+    '<p class="step">Nivel ' + (done + 1) + " de " + TOTAL + "<small>desplazamiento del cifrado cesar ahora mismo: " + n.desplazamiento + "</small></p>" +
     '<div class="bar"><i></i></div>' +
     '<div class="cipher"></div>' +
     '<input id="ans" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send" placeholder="Tu respuesta" aria-label="Tu respuesta">' +
